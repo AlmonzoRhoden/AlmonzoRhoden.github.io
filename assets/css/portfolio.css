@@ -21,6 +21,8 @@
 	width: 67%;
 	margin-top: 10px;
 	height:800px;
+	float: left;
+	margin-left: 30px;
 }
 
 #myVideo {
