@@ -1,0 +1,126 @@
+/* Added Google font Leckerli One */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+/* Space Background - all credit goes to Nazar The Vis Azhar at codepen.io*/
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -2;
+  }
+
+  *{
+	box-sizing: border-box;
+	margin: auto;
+  }
+
+/*Phone break*/
+
+  @media only screen and (max-width: 425px) {
+	.navbar{
+	width: 250%;
+	}
+}
+/*       My custom CSS below */ 
+
+.container{
+	width: 67%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+body{
+   font-family: 'Leckerli One', cursive, sans-serif;  
+   font-size: 25px;
+}
+
+.navbar{
+	padding:10px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.jumbotron{
+	width: 550px;
+	height:700px;
+	margin-left:20px;
+	margin-top: 20px;
+	font-family: Times monospace sans-serif;
+	text-align:left;
+	border: 1px solid black;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.img-thumbnail{
+	width:250px;
+	height: 250px;
+	position: absolute;
+	top:170px;
+	left: 60px;
+	border-radius: 10px;
+}
+
+.img-thumbnail-text {
+	text-align: justify;
+}
+
+
+.card{
+	width:550px;
+	height:40px;
+	position: absolute;
+	top: -15px;
+	border-radius: 10px;
+	margin-top:5px;
+
+}
+
+.card footer  {
+	position: relative;
+	bottom: 20px;
+	text-align: left;
+	font-style: italic;
+	font-size:16px;
+	margin-top: 5px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.git-image{
+ width:30px;
+ height: 30px;
+ max-width: auto;
+ height:auto;
+}
+
+.linkedin-image{
+	width: 20px;
+	height: 20px;
+	max-width: auto;
+	height: auto;
+}
+
+main{
+	font-size: 16px;
+    text-align: justify;
+    border: 1px solid black;
+    position: relative;
+    bottom: 270px;
+    border-radius: 10px;
+    padding:10px;
+}
+
+
+.form-check{
+   position: relative;
+   right:20px;
+}
+
+.form-control-1{
+    width:465px;
+    height:100px;
+}
