@@ -29,5 +29,3 @@ Must contain your personalized information. (bio, name, images, links to social 
 Must properly utilize Bootstrap components and grid system.
 
 <h2> Link to deployed application or index.html page</h2> https://AlmonzoRhoden.github.io
-<h2> Link to Contact page </h2> https://almonzorhoden.github.io/AlmonzoRhoden.github.io/assets/html/contact.html
-<h2> Link to Porftolio page</h2 https://almonzorhoden.github.io/AlmonzoRhoden.github.io/assets/html/portfolio.html
