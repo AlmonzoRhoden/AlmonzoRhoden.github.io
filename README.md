@@ -22,14 +22,12 @@ Navbar on each page must contain links to Home/About, Contact, and Portfolio pag
 
 All links must work.
 
-Must use semantic html.
-
 Each page must have valid and correct HTML. (use a validation service)
 
 Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
 Must properly utilize Bootstrap components and grid system.
 
-<h2> Link to deployed application </h2> https://AlmonzoRhoden.github.io
-  <h2> Link to Contact page </h2> https://almonzorhoden.github.io/AlmonzoRhoden.github.io/assets/html/contact.html
-  <h2> Link to Porftolio Page </h2 https://almonzorhoden.github.io/AlmonzoRhoden.github.io/assets/html/portfolio.html
+<h2> Link to deployed application or index.html page</h2> https://AlmonzoRhoden.github.io
+<h2> Link to Contact page </h2> https://almonzorhoden.github.io/AlmonzoRhoden.github.io/assets/html/contact.html
+<h2> Link to Porftolio page</h2 https://almonzorhoden.github.io/AlmonzoRhoden.github.io/assets/html/portfolio.html
