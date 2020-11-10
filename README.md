@@ -2,9 +2,9 @@
 
 <h2>Screenshot of Deployed application on various devices<h2>
   
-![Ipad](https://user-images.githubusercontent.com/61447353/95706387-bc279a00-0c24-11eb-80d2-3beb61cd6248.PNG)
-![Laptop](https://user-images.githubusercontent.com/61447353/95706390-bcc03080-0c24-11eb-86bb-34d083a5a540.PNG)
-![Phone](https://user-images.githubusercontent.com/61447353/95706391-bd58c700-0c24-11eb-94e0-7d66321f62f9.PNG)
+![Phone](https://user-images.githubusercontent.com/61447353/98746270-2433e200-2383-11eb-99e2-fe2b072d5d68.png)
+![Ipad](https://user-images.githubusercontent.com/61447353/98746283-29912c80-2383-11eb-8160-029212a45973.png)
+![Laptop](https://user-images.githubusercontent.com/61447353/98746294-2dbd4a00-2383-11eb-9f01-56a3397ab3e8.png)
 
 <h2> Descripition </h2>
 
