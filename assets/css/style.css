@@ -27,7 +27,7 @@
 	box-sizing: border-box;
 	margin: auto;
 }
-/*       My custom CSS below */ 
+/*  Almonzo's custom CSS below */ 
 
 .container{
 	width: 67%
@@ -59,7 +59,7 @@ body{
 
 .jumbotron{
 	width: 550px;
-	height:700px;
+	height:800px;
 	margin-left:20px;
 	margin-top: 20px;
 	font-family: Times monospace sans-serif;
@@ -87,9 +87,9 @@ body{
 	height:40px;
 	position: relative;
 	right:45px;
-	top: 40px;
+	top: 15px;
 	border-radius: 10px;
-	margin-top:5px;
+	
 }
 
 .card footer  {

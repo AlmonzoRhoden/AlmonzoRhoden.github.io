@@ -5,7 +5,8 @@
 @media only screen and (max-width: 768px) {
 	.navbar{
 	width: 113%;
-	margin-left:5px;
+	position: relative;
+	right: 120px;
 	
 	}
 }
@@ -13,11 +14,11 @@
 @media only screen and (max-width: 425px) {
 	.navbar{
 	width: 250%;
+	margin-right: 200px;
 	}
 }
 
 /* Space Background - all credit goes to Nazar The Vis Azhar at codepen.io*/
-
 #myVideo {
 	position: fixed;
 	right: 0;
@@ -28,35 +29,37 @@
 	z-index: -2;
   }
 
-  /* Breakpoint phone*/
-@media only screen and (max-width: 425px) {
+  *{
+	box-sizing: border-box;
+	margin: auto;
+  }
+
+/*Phone break*/
+
+  @media only screen and (max-width: 425px) {
 	.navbar{
 	width: 250%;
 	}
 }
-
-*{
-	box-sizing: border-box;
-	margin: auto 0;
-}
-/*       My custom CSS below */ 
+/* Almonzo's custom CSS below */ 
 
 .container{
 	width: 67%;
 	margin-top: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
-
 body{
-   font-family: 'Leckerli One', cursive, sans-serif;  
+   font-family: 'Times New Roman', Times, serif;
    font-size: 25px;
+   color:white;
 }
 
 .navbar{
 	padding:10px;
 	margin-top: 20px;
 	border-radius: 10px;
+	font-family: 'Leckerli One', cursive, sans-serif; 
 }
 
 .jumbotron{
@@ -64,37 +67,46 @@ body{
 	height:700px;
 	margin-left:20px;
 	margin-top: 20px;
-	font-family: Times monospace sans-serif;
+	font-family: 'Times New Roman', Times, serif';
 	text-align:left;
 	border: 1px solid black;
 	padding: 30px;
 	border-radius: 10px;
-	margin-bottom: 25px;;
 }
+
+.img-thumbnail{
+	width:250px;
+	height: 250px;
+	position: absolute;
+	top:170px;
+	left: 60px;
+	border-radius: 10px;
+}
+
+.img-thumbnail-text {
+	text-align: justify;
+}
+
 
 .card{
 	width:550px;
 	height:40px;
 	position: relative;
+     right:40px;
 	border-radius: 10px;
-	margin-top:5px;
-	left: 30px;
-	bottom:15px;
+    color:black;
 }
 
 .card footer  {
 	position: relative;
 	bottom: 20px;
-	text-align: center;
+	text-align: left;
 	font-style: italic;
 	font-size:16px;
 	margin-top: 5px;
 	font-weight: bold;
 	font-family: 'Times New Roman', Times, serif;
 }
-
-
-
 
 .git-image{
  width:30px;
@@ -108,22 +120,21 @@ body{
 	height: 20px;
 	max-width: auto;
 	height: auto;
-	border-radius: 5px;
 }
 
 main{
 	font-size: 16px;
-	text-align: justify;
+    text-align: justify;
+    border: 1px solid white;
+    position: relative;
+    bottom: 270px;
+    border-radius: 10px;
+	padding:10px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
-.under-construction-image{
-    width: 500px;
-    height: 500px;
-    bottom: 250;
-    position: relative;
-	left: -10;
-	border: 1px solid red;
-}
+
+
 
 
 

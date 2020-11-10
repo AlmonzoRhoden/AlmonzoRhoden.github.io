@@ -6,13 +6,27 @@
 	.navbar{
 	width: 113%;
 	margin-left:5px;
-	
+	}
+
+	div.card{
+		position: relative;
+		
 	}
 }
 /* Breakpoint iphone/samsung*/
 @media only screen and (max-width: 425px) {
 	.navbar{
 	width: 250%;
+	margin-right:10px;
+	}
+
+	div.card{
+		position: relative;
+		left: 28px;
+	}
+
+	#align-jumbo{
+		margin-right: 80px;
 	}
 }
 
@@ -30,7 +44,7 @@
 	margin: auto;
 }
 
-/*       My custom CSS below */ 
+/*  Almonzo's custom CSS below */ 
 
 .container{
 	width: 67%;
@@ -58,44 +72,49 @@ body{
 
 .navbar{
 	padding:10px;
-	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
 	border-radius: 10px;
+	position: relative;
+	left: 120px;
 }
 
 .jumbotron{
-	width: 550px;
-	height:600px;
-	margin-left:20px;
-	margin-top: 20px;
-	font-family: Times monospace sans-serif;
+	width: 290px;
+	height:400px;
+	font-family: 'Times New Roman', Times, serif;
 	text-align:left;
 	border: 1px solid black;
-	padding: 30px;
+	padding: 20px;
 	border-radius: 10px;
-	margin-bottom: 20px;;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	position: relative;
+	left: 100px;
 }
 
 .card{
 	width:550px;
 	height:40px;
 	position: absolute;
+	right:200px;
+	top: 50px;
 	border-radius: 10px;
-	margin-top:5px;
-	right: 20px;
+	
 }
 
 .card footer  {
 	position: relative;
 	bottom: 20px;
-	text-align: center;
+	text-align: left;
 	font-style: italic;
 	font-size:16px;
 	margin-top: 5px;
 	font-weight: bold;
-	font-family: 'Times New Roman', Times, serif;
 }
-
-
 
 .git-image{
  width:30px;
@@ -109,47 +128,41 @@ body{
 	height: 20px;
 	max-width: auto;
 	height: auto;
-	border-radius: 5px;
 }
 
-main{
-	font-size: 16px;
-	text-align: justify;
-}
 
-.box-container{
-box-sizing: border-box;
-margin:20px;
-display: flex;
-flex-wrap: wrap;
-position: relative;
-bottom:250px;
-justify-content: space-evenly;
-top: -250px;
-text-align: center;
-font-weight: bold;
-}
 
 
 .box-1{
-    background-color:red;
-    width: 180px;
-	height:180px;
+	border: 1px solid red;
+	background-image: url(../images/day-planner.png);
+	background-size: cover;
+    width: 300px;
+	height:300px;
 	padding-top: 80px;
 	font-weight: bold;
 }
 
+
+
 .box-2{
-    background-color: rgb(87, 87, 80);
-    width: 180px;
-	height:180px;
+	border: 1px solid yellow;
+	background-image: url(../images/testing-app.png);
+	background-size: cover;
+    width: 300px;
+	height:300px;
 	padding-top: 80px;
+
 }
 
 .box-3{
-    background-color:green;
-    width: 180px;
-	height:180px;
+	border: 1px solid green;
+	background-image: url(../images/weather-app.png);
+	background-size: cover;
+    width: 300px;
+	height:290px;
 	padding-top: 80px;
 }
+
+
 
