@@ -5,7 +5,7 @@
 @media only screen and (max-width: 768px) {
 	.navbar{
 	width: 113%;
-	margin-left:5px;
+	margin-left:-50px;
 	}
 
 	div.card{
@@ -16,8 +16,8 @@
 /* Breakpoint iphone/samsung*/
 @media only screen and (max-width: 425px) {
 	.navbar{
-	width: 250%;
-	margin-right:10px;
+	width: 300%;
+	
 	}
 
 	div.card{
@@ -34,6 +34,7 @@
 @media only screen and (max-width: 425px) {
 	.navbar{
 	width: 250%;
+	margin-left: -60px;
 	}
 }
 
@@ -46,12 +47,13 @@
 
 /*  Almonzo's custom CSS below */ 
 
-.container{
+.container-fluid{
 	width: 67%;
-	margin-top: 10px;
+
 	height:800px;
 	float: left;
-	margin-left: 30px;
+
+	margin: 0 auto;
 }
 
 #myVideo {
@@ -76,7 +78,7 @@ body{
 	text-align: center;
 	border-radius: 10px;
 	position: relative;
-	left: 120px;
+	left: 160px;
 }
 
 .jumbotron{

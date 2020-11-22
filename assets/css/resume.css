@@ -13,8 +13,8 @@
 /* Breakpoint iphone/samsung*/
 @media only screen and (max-width: 425px) {
 	.navbar{
-	width: 250%;
-	margin-right: 200px;
+	width: 160;
+	
 	}
 }
 
@@ -43,10 +43,11 @@
 }
 /* Almonzo's custom CSS below */ 
 
-.container{
+.container-fluid{
 	width: 67%;
 	margin-top: 10px;
 	margin-bottom: 50px;
+	margin:0 auto;
 }
 
 body{

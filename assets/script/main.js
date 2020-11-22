@@ -3,32 +3,32 @@
 // Links user's button sumbit to page desired
 $('#plannerBtn').on('click', function () {
     console.log('Weather');
-    window.location.href = 'https://almonzorhoden.github.io/day-planner/';
+    window.open('https://almonzorhoden.github.io/day-planner/','_blank');
 });
 
 $('#plannerGitBtn').on('click', function () {
     console.log('Weather Github');
-    window.location.href = 'https://github.com/AlmonzoRhoden/day-planner';
+    window.open('https://github.com/AlmonzoRhoden/day-planner', '_blank');
 });
 
 $('#weatherBtn').on('click', function () {
     console.log('Weather');
-    window.location.href = 'https://almonzorhoden.github.io/weather-dashboard/';
+    window.open('https://almonzorhoden.github.io/weather-dashboard/', '_blank');
 });
 
 $('#weatherGitBtn').on('click', function () {
     console.log('Weather Github');
-    window.location.href = 'https://github.com/AlmonzoRhoden/weather-dashboard';
+    window.open('https://github.com/AlmonzoRhoden/weather-dashboard', '_blank');
 });
 
 $('#testingBtn').on('click', function () {
     console.log('Testing');
-    window.location.href = 'https://almonzorhoden.github.io/Covid-19_TestingApp/';
+    window.open('https://almonzorhoden.github.io/Covid-19_TestingApp/', '_blank');
 });
 
 $('#testingGitBtn').on('click', function () {
     console.log('Testing Github');
-    window.location.href = 'https://github.com/AlmonzoRhoden/Covid-19_TestingApp';
+    window.open('https://github.com/AlmonzoRhoden/Covid-19_TestingApp','_blank');
 });
 
 $('#submitBtn').on('click', function () {
