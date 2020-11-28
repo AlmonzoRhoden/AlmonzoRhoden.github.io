@@ -1,21 +1,6 @@
 /* Added Google font Leckerli One */
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
-/* Breakpoint ipad/tablet*/
-@media only screen and (max-width: 768px) {
-	.navbar{
-	width: 113%;
-	margin-left:5px;
-	
-	}
-}
-/* Breakpoint iphone/samsung*/
-@media only screen and (max-width: 425px) {
-	.navbar{
-	width: 250%;
-	}
-}
-
 /* Space Background - all credit goes to Nazar The Vis Azhar at codepen.io*/
 #myVideo {
 	position: fixed;
@@ -138,4 +123,19 @@ main{
 .form-control-1{
     width:465px;
     height:100px;
+}
+
+/* Breakpoint ipad/tablet*/
+@media only screen and (max-width: 768px) {
+	.navbar{
+	width: 113%;
+	margin-left:5px;
+	
+	}
+}
+/* Breakpoint iphone/samsng*/
+@media only screen and (max-width: 425px) {
+	.navbar{
+	width: 250%;
+	}
 }

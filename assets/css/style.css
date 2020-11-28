@@ -1,37 +1,16 @@
 /* Added Google font Leckerli One */
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
-/* Breakpoint ipad/tablet*/
-@media only screen and (max-width: 768px) {
-	.navbar{
-	width: 80%;
-	margin-left:5px;
-	
-	}
-}
-/* Breakpoint iphone/samsung*/
-@media only screen and (max-width: 425px) {
-	.navbar{
-	width: 160%;
-	}
-}
 
-/* Breakpoint phone*/
-@media only screen and (max-width: 425px) {
-	.navbar{
-	width: 160%;
-	}
-}
 
 *{
 	box-sizing: border-box;
-	margin: auto;
 }
 /*  Almonzo's custom CSS below */ 
 
-.container{
-	width: 67%
-	border: 1px solid red;
+.container-fluid{
+	width: 67%;
+	margin: 0 auto;
 	padding-bottom: 30px;
 }
 
@@ -95,7 +74,7 @@ body{
 .card footer  {
 	position: relative;
 	bottom: 20px;
-	text-align: left;
+	text-align: center;
 	font-style: italic;
 	font-size:16px;
 	margin-top: 5px;
@@ -123,8 +102,8 @@ main{
 
 .skills{
 	position: absolute;
-	left: 440px;
-	bottom: 400px;
+	left: 370px;
+	bottom: 440px;
 }
 
 strong{
@@ -148,3 +127,28 @@ figcaption{
 	bottom:10px;
 }
 
+/* Breakpoint ipad/tablet*/
+@media only screen and (max-width: 768px) {
+	.navbar
+	{
+	/* width: 80%;
+	margin-left:5px; */
+	}
+
+	.card footer
+	{
+		text-align: center;
+	}
+}
+/* Breakpoint iphone/samsung*/
+@media only screen and (max-width: 576px) {
+	.navbar
+	{
+	width: 160%;
+	}
+
+	.card footer
+	{
+		text-align: center;
+	}
+}

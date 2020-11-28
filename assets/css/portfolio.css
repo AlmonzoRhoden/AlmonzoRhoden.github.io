@@ -1,35 +1,6 @@
 /* Added Google font Leckerli One */
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
-/* Breakpoint ipad/tablet*/
-@media only screen and (max-width: 768px) {
-	.navbar{
-	width: 113%;
-	margin-left:-50px;
-	}
-
-	div.card{
-		position: relative;
-		
-	}
-}
-/* Breakpoint iphone/samsung*/
-@media only screen and (max-width: 425px) {
-	.navbar{
-	width: 300%;
-	
-	}
-
-	div.card{
-		position: relative;
-		left: 28px;
-	}
-
-	#align-jumbo{
-		margin-right: 80px;
-	}
-}
-
 /* Space Background - all credit goes to Nazar The Vis Azhar at codepen.io*/
 @media only screen and (max-width: 425px) {
 	.navbar{
@@ -52,8 +23,7 @@
 
 	height:800px;
 	float: left;
-
-	margin: 0 auto;
+	margin: 0 auto !important;
 }
 
 #myVideo {
@@ -102,7 +72,7 @@ body{
 	width:550px;
 	height:40px;
 	position: absolute;
-	right:200px;
+	right:220px;
 	top: 50px;
 	border-radius: 10px;
 	
@@ -166,5 +136,40 @@ body{
 	padding-top: 80px;
 }
 
+
+/* Breakpoint ipad/tablet*/
+@media only screen and (max-width: 768px) {
+	.navbar{
+	width: 113%;
+	margin-left:-50px;
+	}
+
+	div.card{
+		position: relative;
+		
+	}
+}
+/* Breakpoint iphone/samsung*/
+@media only screen and (max-width: 576px) {
+	.navbar{
+	width: 200%;
+	
+	}
+
+	div.card{
+		position: relative;
+		left: 28px;
+	
+	}
+
+	#align-jumbo{
+		margin-right: 80px;
+	}
+	
+	.card
+	{
+		margin-right:80px;
+	}
+}
 
 
