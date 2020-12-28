@@ -1,6 +1,6 @@
-<h1 align = "center" > HW #02 Responsive Portfolio </h1>
+<h1 align = "center" > Responsive Portfolio </h1>
 
-<h2>Screenshot of Deployed application on various devices<h2>
+<h2>Preview of deployed application on various devices<h2>
   
 ![Phone](https://user-images.githubusercontent.com/61447353/98746707-fd29e000-2383-11eb-82cd-e5504ba5d90a.png)
 
@@ -8,7 +8,7 @@
 
 ![Laptop](https://user-images.githubusercontent.com/61447353/98746294-2dbd4a00-2383-11eb-9f01-56a3397ab3e8.png)
 
-<h2> Descripition </h2>
+<h2> Application descripition </h2>
 
 Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application.
 
@@ -30,4 +30,4 @@ Must contain your personalized information. (bio, name, images, links to social 
 
 Must properly utilize Bootstrap components and grid system.
 
-<h2> Link to deployed application</h2> https://AlmonzoRhoden.github.io
+<h2> Deployed application</h2> https://AlmonzoRhoden.github.io
