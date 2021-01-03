@@ -1,48 +1,31 @@
+/* Portfolio CSS */
+
 /* Added Google font Leckerli One */
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
-/* Space Background - all credit goes to Nazar The Vis Azhar at codepen.io*/
-@media only screen and (max-width: 425px) {
-	.navbar{
-	width: 250%;
-	margin-left: -60px;
-	}
-}
-
-/* Box sixing */
-
-*{
+/* Universal settings */
+*
+{
 	box-sizing: border-box;
-	margin: auto;
+
 }
 
-/*  Almonzo's custom CSS below */ 
-
-.container-fluid{
+.container
+{
 	width: 67%;
-
 	height:800px;
 	float: left;
-	margin: 0 auto !important;
 }
 
-#myVideo {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	top: 0;
-	min-width: 100%; 
-	min-height: 100%;
-	z-index: -2;
-  }
 
-
-body{
+body
+{
    font-family: 'Leckerli One', cursive, sans-serif;  
    font-size: 25px;
 }
 
-.navbar{
+.navbar
+{
 	padding:10px;
 	margin-bottom: 10px;
 	text-align: center;
@@ -51,7 +34,8 @@ body{
 	left: 160px;
 }
 
-.jumbotron{
+.jumbotron
+{
 	width: 290px;
 	height:400px;
 	font-family: 'Times New Roman', Times, serif;
@@ -68,17 +52,18 @@ body{
 	left: 100px;
 }
 
-.card{
+.card
+{
 	width:550px;
 	height:40px;
 	position: absolute;
 	right:220px;
 	top: 50px;
-	border-radius: 10px;
-	
+	border-radius: 10px;	
 }
 
-.card footer  {
+.card footer  
+{
 	position: relative;
 	bottom: 20px;
 	text-align: left;
@@ -88,24 +73,24 @@ body{
 	font-weight: bold;
 }
 
-.git-image{
+.git-image
+{
  width:30px;
  height: 30px;
  max-width: auto;
  height:auto;
 }
 
-.linkedin-image{
+.linkedin-image
+{
 	width: 20px;
 	height: 20px;
 	max-width: auto;
 	height: auto;
 }
 
-
-
-
-.box-1{
+.box-1
+{
 	border: 1px solid red;
 	background-image: url(../images/day-planner.png);
 	background-size: cover;
@@ -114,8 +99,6 @@ body{
 	padding-top: 80px;
 	font-weight: bold;
 }
-
-
 
 .box-2{
 	border: 1px solid yellow;
@@ -127,7 +110,8 @@ body{
 
 }
 
-.box-3{
+.box-3
+{
 	border: 1px solid green;
 	background-image: url(../images/weather-app.png);
 	background-size: cover;
@@ -135,7 +119,6 @@ body{
 	height:290px;
 	padding-top: 80px;
 }
-
 
 /* Breakpoint ipad/tablet*/
 @media only screen and (max-width: 768px) {
@@ -149,27 +132,14 @@ body{
 		
 	}
 }
-/* Breakpoint iphone/samsung*/
-@media only screen and (max-width: 576px) {
-	.navbar{
-	width: 200%;
-	
-	}
 
-	div.card{
-		position: relative;
-		left: 28px;
-	
-	}
 
-	#align-jumbo{
-		margin-right: 80px;
-	}
-	
-	.card
+/* Media Query */
+
+@media only screen and (max-width:) {
+	.navbar
 	{
-		margin-right:80px;
+	width: 250%;
+	margin-left: -60px;
 	}
 }
-
-
