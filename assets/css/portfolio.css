@@ -1,4 +1,4 @@
-/* Portfolio CSS */
+/* APortfolio CSS */
 
 /* Added Google font Leckerli One */
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
@@ -7,139 +7,134 @@
 *
 {
 	box-sizing: border-box;
-
-}
-
-.container
-{
-	width: 67%;
-	height:800px;
-	float: left;
-}
-
-
-body
-{
-   font-family: 'Leckerli One', cursive, sans-serif;  
-   font-size: 25px;
 }
 
 .navbar
 {
-	padding:10px;
-	margin-bottom: 10px;
-	text-align: center;
+	margin-top: 10px;
 	border-radius: 10px;
-	position: relative;
-	left: 160px;
+	font-family: 'Leckerli One', cursive,'Times New Roman', Times, serif;
+}
+
+.nav-link
+{
+	 float: right; 
 }
 
 .jumbotron
 {
 	width: 290px;
-	height:400px;
+	height:auto;
 	font-family: 'Times New Roman', Times, serif;
-	text-align:left;
 	border: 1px solid black;
-	padding: 20px;
 	border-radius: 10px;
-	margin-bottom: 10px;
-	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	position: relative;
-	left: 100px;
+	margin:20px;
 }
 
-.card
+h2
 {
-	width:550px;
-	height:40px;
-	position: absolute;
-	right:220px;
-	top: 50px;
-	border-radius: 10px;	
+	animation: glow 1s ease-in-out infinite alternate;
+	color:white;
 }
 
-.card footer  
-{
-	position: relative;
-	bottom: 20px;
-	text-align: left;
-	font-style: italic;
-	font-size:16px;
-	margin-top: 5px;
-	font-weight: bold;
-}
-
-.git-image
-{
- width:30px;
- height: 30px;
- max-width: auto;
- height:auto;
-}
-
-.linkedin-image
-{
-	width: 20px;
-	height: 20px;
-	max-width: auto;
-	height: auto;
-}
-
+/* Projects Display */
 .box-1
 {
-	border: 1px solid red;
-	background-image: url(../images/day-planner.png);
-	background-size: cover;
-    width: 300px;
-	height:300px;
-	padding-top: 80px;
-	font-weight: bold;
-}
-
-.box-2{
-	border: 1px solid yellow;
+	border: 1px solid black;
 	background-image: url(../images/testing-app.png);
 	background-size: cover;
     width: 300px;
-	height:300px;
-	padding-top: 80px;
+	height:200px;
+}
 
+.box-2
+{
+	border: 1px solid black;
+	background-image: url(../images/book-app.png);
+	background-size: cover;
+    width: 300px;
+	height:200px;
 }
 
 .box-3
 {
-	border: 1px solid green;
+	border: 1px solid black;
 	background-image: url(../images/weather-app.png);
 	background-size: cover;
     width: 300px;
-	height:290px;
-	padding-top: 80px;
+	height:200px;
 }
 
-/* Breakpoint ipad/tablet*/
-@media only screen and (max-width: 768px) {
-	.navbar{
-	width: 113%;
-	margin-left:-50px;
-	}
-
-	div.card{
-		position: relative;
-		
-	}
+.box-4
+{
+	border: 1px solid black;
+	background-image: url(../images/burger-project.png);
+	background-size: cover;
+    width: 300px;
+	height:200px;
 }
 
+footer
+{
+	text-align: center;
+	font-size: 12px;
+}
 
-/* Media Query */
+.card
+{
+	width:100%;
+	text-align: center;
+	margin-bottom:10px;
+}
+/* Space background loop - do not touch*/
+#myVideo 
+{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -2;
+}
 
-@media only screen and (max-width:) {
-	.navbar
+/* Media Query for Ipads */
+@media only screen and (max-width: 768px) 
+{
+	.jumbotron
 	{
-	width: 250%;
-	margin-left: -60px;
+		float: right;
 	}
+
 }
+
+
+/* Media Query for screens larger than 992px */
+
+@media only screen and (min-width: 992px) 
+{
+	.navbar-brand
+	{
+	  padding-right: 740px;
+	}
+
+	.nav-link
+	{
+		font-size:20px;
+	}
+
+}
+
+  
+/* Glowing text - do not touch */
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  black, 0 0 20px black, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
