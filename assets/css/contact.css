@@ -1,8 +1,78 @@
+/* Contact CSS*/ 
+
 /* Added Google font Leckerli One */
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 
-/* Space Background - all credit goes to Nazar The Vis Azhar at codepen.io*/
-#myVideo {
+
+/* Universal settings */
+  *
+  {
+	box-sizing: border-box;
+  }
+
+  .navbar
+{
+	margin-top: 10px;
+	border-radius: 10px;
+	font-family: 'Leckerli One', cursive,'Times New Roman', Times, serif;
+}
+
+.nav-link
+{
+	 float: right; 
+}
+
+
+.jumbotron
+{
+	margin-left:20px;
+	margin-top: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align:left;
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+}
+
+main
+{
+	font-size: 16px;
+    text-align: justify;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 10px;
+    padding:30px;
+}
+
+
+.form-check
+{
+   position: relative;
+   right:20px;
+}
+
+.form-control-1
+{
+    width:100%;
+    height:100px;
+}
+
+footer
+{
+	text-align: center;
+	font-size: 12px;
+}
+
+.card
+{
+	width:100%;
+	text-align: center;
+	margin-bottom:10px;
+}
+
+/* Space Background - do not touch*/
+#myVideo
+ {
 	position: fixed;
 	right: 0;
 	bottom: 0;
@@ -12,130 +82,30 @@
 	z-index: -2;
   }
 
-  *{
-	box-sizing: border-box;
-	margin: auto;
-  }
 
-/*Phone break*/
-
-  @media only screen and (max-width: 425px) {
-	.navbar{
-	width: 250%;
+  @media only screen and (max-width: 768px) 
+{
+	.jumbotron
+	{
+		float: right;
 	}
-}
-/* Almonzo's custom CSS below */ 
-
-.container-fluid{
-	width: 67%;
-	margin-top: 10px;
-	margin-bottom: 50px;
-}
-
-body{
-   font-family: 'Leckerli One', cursive, sans-serif;  
-   font-size: 25px;
-}
-
-.navbar{
-	padding:10px;
-	margin-top: 20px;
-	border-radius: 10px;
-}
-
-.jumbotron{
-	width: 550px;
-	height:700px;
-	margin-left:20px;
-	margin-top: 20px;
-	font-family: Times monospace sans-serif;
-	text-align:left;
-	border: 1px solid black;
-	padding: 30px;
-	border-radius: 10px;
-}
-
-.img-thumbnail{
-	width:250px;
-	height: 250px;
-	position: absolute;
-	top:170px;
-	left: 60px;
-	border-radius: 10px;
-}
-
-.img-thumbnail-text {
-	text-align: justify;
-}
-
-
-.card{
-	width:550px;
-	height:40px;
-	position: absolute;
-	top: -15px;
-	border-radius: 10px;
-	margin-top:5px;
 
 }
 
-.card footer  {
-	position: relative;
-	bottom: 20px;
-	text-align: left;
-	font-style: italic;
-	font-size:16px;
-	margin-top: 5px;
-	font-weight: bold;
-	font-family: 'Times New Roman', Times, serif;
-}
+/* Media Query for screens larger than 992px */
 
-.git-image{
- width:30px;
- height: 30px;
- max-width: auto;
- height:auto;
-}
-
-.linkedin-image{
-	width: 20px;
-	height: 20px;
-	max-width: auto;
-	height: auto;
-}
-
-main{
-	font-size: 16px;
-    text-align: justify;
-    border: 1px solid black;
-    position: relative;
-    bottom: 270px;
-    border-radius: 10px;
-    padding:10px;
-}
-
-
-.form-check{
-   position: relative;
-   right:20px;
-}
-
-.form-control-1{
-    width:465px;
-    height:100px;
-}
-
-/* Breakpoint ipad/tablet*/
-@media only screen and (max-width: 768px) {
-	.navbar{
-	width: 113%;
-	margin-left:5px;
-	
+@media only screen and (min-width: 992px) 
+{
+	.navbar-brand
+	{
+	  padding-right: 740px;
 	}
-}
-/* Breakpoint iphone/samsng*/
-@media only screen and (max-width: 425px) {
-	.navbar{
-	width: 250%;
+
+	.nav-link
+	{
+		font-size:20px;
 	}
+
 }
+
+  
