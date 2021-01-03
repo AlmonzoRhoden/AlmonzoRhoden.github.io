@@ -49,7 +49,7 @@ $('#burgerGitBtn').on('click', function () {
 // Contact Me 
 $('#submitBtn').on('click', function () {
     console.log('Submit');
-    window.location.href = 'mailto:almonzorhode@gmail.com';
+    window.location.href = 'mailto:almonzorhoden@gmail.com';
 });
 
 // Setting volume level of bgm
