@@ -20,6 +20,11 @@
 	 float: right; 
 }
 
+body
+{
+	font-size: 20px;
+}
+
 .jumbotron
 {
 	margin-top: 20px;

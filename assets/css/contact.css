@@ -44,6 +44,11 @@ main
     padding:30px;
 }
 
+body
+{
+	font-size: 20px;
+}
+
 
 .form-check
 {

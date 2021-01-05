@@ -21,6 +21,12 @@
 	 float: right; 
 }
 
+body
+{
+	font-size: 20px;
+}
+
+
 .jumbotron
 {
 	width: 290px;

@@ -47,9 +47,20 @@ $('#burgerGitBtn').on('click', function () {
 });
 
 // Contact Me 
-$('#submitBtn').on('click', function () {
+$('#submitBtn').on('click', function () 
+{
     console.log('Submit');
     window.location.href = 'mailto:almonzorhoden@gmail.com';
+});
+
+$('#GitBtn').on('click', function () {
+    console.log('Github');
+    window.open('https://github.com/AlmonzoRhoden', '_blank');
+});
+
+$('#LinkedInBtn').on('click', function () {
+    console.log('LinkedIn');
+    window.open('https://www.linkedin.com/in/almonzorhoden/', '_blank');
 });
 
 // Setting volume level of bgm
