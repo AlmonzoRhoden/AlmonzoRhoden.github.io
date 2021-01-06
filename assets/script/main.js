@@ -10,7 +10,7 @@ $('#testingBtn').on('click', function () {
 
 $('#testingGitBtn').on('click', function () {
     console.log('Covid-19 Github');
-    window.open('https://github.com/AlmonzoRhoden/Covid-19_TestingApp','_blank');
+    window.open('https://github.com/AlmonzoRhoden/covid-19-app','_blank');
 });
 
 //  Box-2-Project-2
