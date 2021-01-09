@@ -16,7 +16,7 @@ $('#testingGitBtn').on('click', function () {
 //  Box-2-Project-2
 $('#BookBtn').on('click', function () {
     console.log('Book');
-    window.open('https://pacific-harbor-27397.herokuapp.com/home','_blank');
+    window.open('https://book-book-almonzo.herokuapp.com/login','_blank');
 });
 
 $('#BookGitBtn').on('click', function () {
