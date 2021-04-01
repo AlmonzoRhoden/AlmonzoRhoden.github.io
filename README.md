@@ -1,4 +1,4 @@
-<h1 align = "center" > Responsive Portfolio </h1>
+<h1 align = "center" > Responsive Portfolio</h1>
 
 <h2>Preview of deployed application on various devices<h2>
   
