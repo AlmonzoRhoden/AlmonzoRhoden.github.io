@@ -31,7 +31,6 @@
 	text-align:left;
 	border: 1px solid black;
 	border-radius: 10px;
-	float:right;
 	
 }
 
@@ -105,7 +104,7 @@ footer
 	}
 	
 	.jumbotron{
-	float:right;
+	float:left;
 	}
 
 }
