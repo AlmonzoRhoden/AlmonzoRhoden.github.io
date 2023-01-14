@@ -31,7 +31,7 @@
 	text-align:left;
 	border: 1px solid black;
 	border-radius: 10px;
-	float:right;
+	float:left;
 }
 
 main
@@ -77,10 +77,7 @@ footer
 
   @media only screen and (max-width: 768px) 
 {
-	.jumbotron
-	{
-		float: right;
-	}
+	
 #vegeta{
 	width: 100%;
 }
