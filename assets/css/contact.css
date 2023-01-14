@@ -57,7 +57,7 @@ footer
 
 .card
 {
-	width:auto;
+	width:100%;
 	text-align: center;
 	margin-bottom:10px;
 }
@@ -79,8 +79,7 @@ footer
 {
 	
 
-.jumbotron{
- width:100%;
+.jumbotron{ width:100%;
 }
 	
 #vegeta{ 
