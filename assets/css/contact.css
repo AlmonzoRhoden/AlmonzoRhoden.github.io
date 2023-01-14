@@ -84,8 +84,7 @@ footer
 	
 	.jumbotron
 {
-	width:auto;
-	margin-left:20px;
+	width:100%;
 	
 }
 
@@ -104,8 +103,7 @@ footer
 	}
 	
 	.jumbotron{
-	width:auto;
-	margin-left:20px;
+	width:100%;
 	
 }
 }
