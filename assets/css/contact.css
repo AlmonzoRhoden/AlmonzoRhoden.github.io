@@ -79,12 +79,12 @@ footer
 {
 	
 
-.jumbotron
-{
-	width:100%;
+.jumbotron{
+ width:100%;
 }
-#vegeta{
-	width:100%;
+	
+#vegeta{ 
+width:100%;
 }
 
 /* Media Query for screens larger than 992px */
@@ -101,7 +101,7 @@ footer
 		font-size:20px;
 	}
 
-	.jumbotron
+.jumbotron
 {
 	
 	float:left;
