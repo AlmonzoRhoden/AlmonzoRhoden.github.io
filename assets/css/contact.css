@@ -31,7 +31,7 @@
 	text-align:left;
 	border: 1px solid black;
 	border-radius: 10px;
-	float:left;
+	
 }
 
 main
@@ -101,6 +101,11 @@ footer
 		font-size:20px;
 	}
 
+	.jumbotron
+{
+	
+	float:left;
+}
 }
 
 
