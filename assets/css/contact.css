@@ -25,6 +25,7 @@
 
 .jumbotron
 {
+	margin-left: 20px;
 	margin-top: 20px;
 	font-family: 'Times New Roman', Times, serif;
 	text-align:left;
@@ -101,9 +102,6 @@ footer
 	.nav-link
 	{
 		font-size:20px;
-	}
-	.jumbotron{
-		float:right;
 	}
 
 }
