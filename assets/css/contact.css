@@ -80,11 +80,11 @@ footer
   @media only screen and (max-width: 768px) 
 {
 	.jumbotron{
-	width:100;
+	width:100%;
 	}
 	
 	#vegeta{
-		width:100;
+		width:100%;
 	}
 }
 }	
