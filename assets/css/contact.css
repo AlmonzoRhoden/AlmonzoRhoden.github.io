@@ -103,6 +103,10 @@ footer
 	{
 		font-size:20px;
 	}
+	
+	.jumbotron{
+	float:left;
+	}
 
 }
 
