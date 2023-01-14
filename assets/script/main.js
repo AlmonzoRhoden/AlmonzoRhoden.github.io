@@ -16,12 +16,12 @@ $('#testingGitBtn').on('click', function () {
 //  Box-2-Project-2
 $('#BookBtn').on('click', function () {
     console.log('Book');
-    window.open('https://book-book-almonzo.herokuapp.com/login','_blank');
+    window.open('https://almonzorhoden.github.io/day-planner/','_blank');
 });
 
 $('#BookGitBtn').on('click', function () {
     console.log('Book Github');
-    window.open('https://github.com/AlmonzoRhoden/book-book', '_blank');
+    window.open('https://github.com/AlmonzoRhoden/day-planner', '_blank');
 });
 
 //  Box-3-Project-3
@@ -38,12 +38,12 @@ $('#weatherGitBtn').on('click', function () {
 //  Box-4-Project-4
 $('#burgerBtn').on('click', function () {
     console.log('Burger');
-    window.open('https://almonzo-eat-the-burger.herokuapp.com/', '_blank');
+    window.open('https://almonzorhoden.github.io/password-generator/', '_blank');
 });
 
 $('#burgerGitBtn').on('click', function () {
     console.log('Burger Github');
-    window.open('https://github.com/AlmonzoRhoden/burger', '_blank');
+    window.open('https://github.com/AlmonzoRhoden/password-generator', '_blank');
 });
 
 // Contact Me 
@@ -63,6 +63,51 @@ $('#LinkedInBtn').on('click', function () {
     window.open('https://www.linkedin.com/in/almonzorhoden/', '_blank');
 });
 
+$('#SupportInBtn').on('click', function () {
+    console.log('Coffee');
+    window.open('https://www.buymeacoffee.com/AlmonzoRhoden', '_blank');
+});
+
+
 // Setting volume level of bgm
 var audio = document.getElementById("myaudio");
 audio.volume = 0.2;
+
+//Jquery Javascript code
+
+$(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("slow");
+    });
+  });
+  
+
+//Jquery Javascript code1
+
+$(document).ready(function(){
+    $("#flip1").click(function(){
+      $("#panel1").slideToggle("slow");
+    });
+  });
+  
+  //Jquery Javascript code2
+
+$(document).ready(function(){
+    $("#flip2").click(function(){
+      $("#panel2").slideToggle("slow");
+    });
+  });
+  
+   //Jquery Javascript code2
+
+$(document).ready(function(){
+    $("#flip3").click(function(){
+      $("#panel3").slideToggle("slow");
+    });
+  });
+
+  $(document).ready(function(){
+    $("#flip4").click(function(){
+      $("#panel4").slideToggle("slow");
+    });
+  });

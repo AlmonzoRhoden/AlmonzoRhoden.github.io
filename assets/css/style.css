@@ -41,6 +41,10 @@ h1
 	font-family: 'Leckerli One', cursive,'Times New Roman', Times, serif;
 }
 
+h2{
+	font-family: 'Times New Roman', Times, serif;
+}
+
 #almonzo-img
 {
 	border: 3px solid black;
@@ -104,13 +108,107 @@ footer
 
 }
 
+/* Jquery CSS code below*/
+#panel, #flip {
+	padding: 5px;
+	background-color: #030303da;
+	border: solid 1px #c3c3c3;
+	color:white;
+  }
+  
+  #panel {
+	padding: 30px;
+	display: none;
+	border-radius: 10px;
+  }
+  
+  #flip{
+	text-align: center;
+  }
 
 
+/* Jquery CSS code2 below*/
+#panel1, #flip1{
+	padding: 5px;
+	background-color: #030303da;
+	border: solid 1px #c3c3c3;
+	color:white;
+  }
+  
+  #panel1 {
+	padding: 30px;
+	display: none;
+	border-radius: 10px;
+  }
+  
+  #flip1{
+	text-align: center;
+  }
 
 
+/* Jquery CSS code2 below*/
+#panel2, #flip2{
+	padding: 5px;
+	background-color: #030303da;
+	border: solid 1px #c3c3c3;
+	color:white;
+  }
+  
+  #panel2 {
+	padding: 30px;
+	display: none;
+	border-radius: 10px;
+  }
+  
+  #flip2{
+	text-align: center;
+  }
 
+  /* Jquery CSS code2 below*/
+#panel3, #flip3{
+	padding: 5px;
+	background-color: #030303da;
+	border: solid 1px #c3c3c3;
+	color:white;
+  }
+  
+  #panel3 {
+	padding: 30px;
+	display: none;
+	border-radius: 10px;
+  }
+  
+  #flip3{
+	text-align: center;
+  }
 
+ /* Jquery CSS code2 below*/
+ #panel4, #flip4{
+	padding: 5px;
+	background-color: #030303da;
+	border: solid 1px #c3c3c3;
+	color:white;
+  }
+  
+  #panel4 {
+	padding: 30px;
+	display: none;
+	border-radius: 10px;
+  }
+  
+  #flip4{
+	text-align: center;
+  }
 
+#centerGif{
+	text-align: center;
+	border: 3px solid green;
+}
+
+#codeLang{
+	width: 200px;
+	height: 150px;
+}
 
 
 
