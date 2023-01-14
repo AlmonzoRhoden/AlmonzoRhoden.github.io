@@ -62,6 +62,14 @@ footer
 	margin-bottom:10px;
 }
 
+#vegeta{ 
+width:100%;
+}
+
+.jumbotron{
+	width:100&;
+}
+
 /* Space Background - do not touch*/
 #myVideo
  {
@@ -79,13 +87,6 @@ footer
 {
 	
 
-.jumbotron{ width:100%;
-}
-	
-#vegeta{ 
-width:100%;
-}
-
 /* Media Query for screens larger than 992px */
 
 @media only screen and (min-width: 992px) 
@@ -98,6 +99,9 @@ width:100%;
 	.nav-link
 	{
 		font-size:20px;
+	}
+	.jumbotron{
+		float:right;
 	}
 
 }
