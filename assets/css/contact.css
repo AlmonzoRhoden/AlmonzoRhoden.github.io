@@ -79,12 +79,12 @@ footer
 {
 	
 #vegeta{
-	width:auto;
+	width:100;
 }
 
 .jumbotron
 {
-	width:auto;
+	width:100%;
 }
 
 /* Media Query for screens larger than 992px */
