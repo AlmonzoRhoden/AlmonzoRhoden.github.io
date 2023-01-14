@@ -85,6 +85,7 @@ footer
 	.jumbotron
 {
 	width:auto;
+	margin-left:20px;
 	
 }
 
@@ -101,7 +102,11 @@ footer
 	{
 		font-size:20px;
 	}
-
+{
+	width:auto;
+	margin-left:20px;
+	
+}
 }
 
   
