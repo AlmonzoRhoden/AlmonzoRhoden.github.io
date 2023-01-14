@@ -105,7 +105,7 @@ footer
 	}
 	
 	.jumbotron{
-	float:right;
+	text-align:left
 	}
 
 }
