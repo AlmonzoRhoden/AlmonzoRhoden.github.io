@@ -79,7 +79,7 @@ footer
 {
 	
 #vegeta{
-	width:auto;
+	width:100%;
 }
 	
 	.jumbotron
@@ -102,10 +102,9 @@ footer
 		font-size:20px;
 	}
 	
-	.jumbotron{
+.jumbotron{
 	width:100%;
-	
-}
+	}
 }
 }
 
