@@ -31,6 +31,7 @@
 	text-align:left;
 	border: 1px solid black;
 	border-radius: 10px;
+	float:left;
 }
 
 main
@@ -78,13 +79,12 @@ footer
 {
 	
 #vegeta{
-	width:100%;
+	width:auto;
 }
-	
-	.jumbotron
+
+.jumbotron
 {
-	width:100%;
-	
+	width:auto;
 }
 
 /* Media Query for screens larger than 992px */
