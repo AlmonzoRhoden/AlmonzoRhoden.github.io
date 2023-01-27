@@ -11,7 +11,7 @@
 * It is currently hosted on Github Pages.
 
 <h2> Deployed application</h2>
-https://almonzorhoden.github.io/ 
+   almonzorhoden.github.io 
 
 <h2> Installation instructions </h2>
 
