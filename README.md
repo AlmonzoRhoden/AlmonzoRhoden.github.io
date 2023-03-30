@@ -1,4 +1,4 @@
-<h2 align = 'center'> Mini Pre-work About Me</h2>
+<h2 align = 'center'> Almonzo's Responsive Portfolio</h2>
 
 <h2> Preview of website</h2>
 
