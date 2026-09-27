@@ -1,0 +1,146 @@
+/* APortfolio CSS */
+
+/* Added Google font Leckerli One */
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+/* Universal settings */
+*
+{
+	box-sizing: border-box;
+}
+
+.navbar
+{
+	margin-top: 10px;
+	border-radius: 10px;
+	font-family: 'Leckerli One', cursive,'Times New Roman', Times, serif;
+}
+
+.nav-link
+{
+	 float: right; 
+}
+
+body
+{
+	font-size: 20px;
+}
+
+
+.jumbotron
+{
+	width: 290px;
+	height:auto;
+	font-family: 'Times New Roman', Times, serif;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin:20px;
+}
+
+h2
+{
+	animation: glow 1s ease-in-out infinite alternate;
+	color:white;
+}
+
+/* Projects Display */
+.box-1
+{
+	border: 1px solid black;
+	background-image: url(../images/testing-app.png);
+	background-size: cover;
+    width: 300px;
+	height:200px;
+}
+
+.box-2
+{
+	border: 1px solid black;
+	background-image: url(../images/book-app.png);
+	background-size: cover;
+    width: 300px;
+	height:200px;
+}
+
+.box-3
+{
+	border: 1px solid black;
+	background-image: url(../images/weather-app.png);
+	background-size: cover;
+    width: 300px;
+	height:200px;
+}
+
+.box-4
+{
+	border: 1px solid black;
+	background-image: url(../images/burger-project.PNG);
+	background-size: cover;
+    width: 300px;
+	height:200px;
+}
+
+footer
+{
+	text-align: center;
+	font-size: 12px;
+}
+
+.card
+{
+	width:100%;
+	text-align: center;
+	margin-bottom:10px;
+}
+/* Space background loop - do not touch*/
+#myVideo 
+{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	z-index: -2;
+}
+
+/* Media Query for Ipads */
+@media only screen and (max-width: 768px) 
+{
+	.jumbotron
+	{
+		float: right;
+	}
+
+}
+
+
+/* Media Query for screens larger than 992px */
+
+@media only screen and (min-width: 992px) 
+{
+	.navbar-brand
+	{
+	  padding-right: 740px;
+	}
+
+	.nav-link
+	{
+		font-size:20px;
+	}
+
+}
+
+  
+/* Glowing text - do not touch */
+@keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px  black, 0 0 20px black, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px black, 0 0 40px black, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
