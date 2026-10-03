@@ -1,5 +1,8 @@
 // ALmonzo's JavaScript
 
+//Footer
+document.getElementById("footer-year").textContent = new Date().getFullYear();
+
 // Links user's button sumbit to page desired
 
 // Box-1-Project-1
